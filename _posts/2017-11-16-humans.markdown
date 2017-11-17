@@ -5,3 +5,5 @@ date:   2017-11-16 04:12:00 +01
 comments: true 
 categories: jekyll update
 ---
+Humans.txt är en text fil som igentligen inte gör något förutom att berättar vem/vilka som gjort sidan och möjligtvis vilka resuser som använts. 
+på min humans.txt har jag lagt in mitt namn, mail och plats

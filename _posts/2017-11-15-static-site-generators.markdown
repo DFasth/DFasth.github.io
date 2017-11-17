@@ -5,19 +5,6 @@ date:   2017-11-16 04:12:00 +01
 comments: true 
 categories: jekyll update
 ---
-{% if page.comments %}
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://df222eq.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
+Static site generators är bra och gör det lätt att underhålla en sida. Det krävs inte super mycke ansträgning att göra men håller ändå ganska hög stil på sidan. Vill man lägga ner mycket energi kan man välja att göra det, men man kan också vara lite latare och bygga på det som redan finns. <br>
+### What type of projects are they suitable for?
+Static site generators annvänds mycket till blogg sidor. Man kan använda det till större sidor men man bör tänka på vad ändamålet med sidan är. Om man t.ex. vill att man ska ha mer rörliga sidor kan inte det bästa att använda sig av Static site generators.
